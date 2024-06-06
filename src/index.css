@@ -8,18 +8,24 @@
 
 .dark {
     --background: #1e1e1e;
+    --button: #000000;
     --button-hover: #3c3c3c;
     --button-hover-invert: #c3c3c3;
     --font: #e1e1e1;
     --font-hover: #aaaaaa;
+    --link-font: #75b6ff;
+    --link-font-hover: #3b82f6;
 }
 
 .light {
     --background: #e1e1e1;
+    --button: #ffffff;
     --button-hover: #c3c3c3;
     --button-hover-invert: #3c3c3c;
     --font: #1e1e1e;
-    --font-hover: #888888;
+    --font-hover: #707070;
+    --link-font: #3b82f6;
+    --link-font-hover: #75b6ff;
 }
 
 @layer components {
