@@ -6,7 +6,7 @@ const ToolTip = ({ children, text, position }) => {
             {children}
             <span
                 className={
-                    "absolute invisible my-5 mx-2 py-1.5 px-3 font-opensans text-base text-components-font bg-components-buttonHover whitespace-nowrap rounded opacity-0 scale-0 " +
+                    "absolute invisible my-5 mx-2 py-1.5 px-3 font-opensans text-base text-components-font bg-components-buttonHover whitespace-nowrap rounded opacity-0 scale-0 z-10 " +
                     "group-hover:visible group-hover:opacity-100 group-hover:scale-100 transition-all " +
                     position
                 }
