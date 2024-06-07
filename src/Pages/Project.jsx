@@ -30,15 +30,17 @@ const Project = () => {
                         </a>
                     </ToolTip>
                     <div className="pr-2"></div>
-                    <ToolTip text="Demo" position="bottom-3/4">
-                        <a
-                            className="p-1 flex justify-center items-center bg-components-font rounded-full transition-colors cursor-pointer hover:bg-components-fontHover"
-                            href={loaderProject.webURL}
-                            target="_blank"
-                        >
-                            <BsLink45Deg className="text-2xl text-components-button" />
-                        </a>
-                    </ToolTip>
+                    {loaderProject.webURL && (
+                        <ToolTip text="Demo" position="bottom-3/4">
+                            <a
+                                className="p-1 flex justify-center items-center bg-components-font rounded-full transition-colors cursor-pointer hover:bg-components-fontHover"
+                                href={loaderProject.webURL}
+                                target="_blank"
+                            >
+                                <BsLink45Deg className="text-2xl text-components-button" />
+                            </a>
+                        </ToolTip>
+                    )}
                 </div>
             </div>
             <h1 className="mb-4 font-notosans text-3xl font-bold">
