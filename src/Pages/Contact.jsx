@@ -4,8 +4,7 @@ import EmailJS from "@emailjs/browser";
 import ToolTip from "../Components/Global/ToolTip";
 import { MdEmail } from "react-icons/md";
 import { BsFillTelephoneFill } from "react-icons/bs";
-import { BsFacebook, BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
-import { FaXTwitter } from "react-icons/fa6";
+import { BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
 
 const Contact = () => {
     const [fromFirstName, setFromFirstName] = useState("");
@@ -86,16 +85,13 @@ const Contact = () => {
                 </form>
                 <div className="mx-2 py-4 col-span-1 flex flex-col justify-between items-center bg-components-buttonHover rounded-full max-tablet767:hidden">
                     <ul className="grid gap-5">
-                        <ToolTip
-                            text="Facebook"
-                            position="left-[calc(100%+15px)]"
-                        >
+                        <ToolTip text="Email" position="left-[calc(100%+15px)]">
                             <a
                                 className="text-2xl transition-colors hover:text-components-fontHover"
-                                href="https://www.facebook.com/punnaphat.phiamtanapuwanon/"
+                                href="mailto:punnaphat.phiam@gmail.com"
                                 target="_blank"
                             >
-                                <BsFacebook />
+                                <MdEmail />
                             </a>
                         </ToolTip>
                         <ToolTip
@@ -108,24 +104,6 @@ const Contact = () => {
                                 target="_blank"
                             >
                                 <BsInstagram />
-                            </a>
-                        </ToolTip>
-                        <ToolTip text="X" position="left-[calc(100%+15px)]">
-                            <a
-                                className="text-2xl transition-colors hover:text-components-fontHover"
-                                href="https://x.com/Dung25156789"
-                                target="_blank"
-                            >
-                                <FaXTwitter />
-                            </a>
-                        </ToolTip>
-                        <ToolTip text="Email" position="left-[calc(100%+15px)]">
-                            <a
-                                className="text-2xl transition-colors hover:text-components-fontHover"
-                                href="mailto:punnaphat.phiam@gmail.com"
-                                target="_blank"
-                            >
-                                <MdEmail />
                             </a>
                         </ToolTip>
                     </ul>
@@ -172,10 +150,10 @@ const Contact = () => {
                 <ul className="grid grid-cols-4 gap-5">
                     <a
                         className="text-2xl transition-colors hover:text-components-fontHover"
-                        href="https://www.facebook.com/punnaphat.phiamtanapuwanon/"
+                        href="mailto:punnaphat.phiam@gmail.com"
                         target="_blank"
                     >
-                        <BsFacebook />
+                        <MdEmail />
                     </a>
                     <a
                         className="text-2xl transition-colors hover:text-components-fontHover"
@@ -183,20 +161,6 @@ const Contact = () => {
                         target="_blank"
                     >
                         <BsInstagram />
-                    </a>
-                    <a
-                        className="text-2xl transition-colors hover:text-components-fontHover"
-                        href="https://x.com/Dung25156789"
-                        target="_blank"
-                    >
-                        <FaXTwitter />
-                    </a>
-                    <a
-                        className="text-2xl transition-colors hover:text-components-fontHover"
-                        href="mailto:punnaphat.phiam@gmail.com"
-                        target="_blank"
-                    >
-                        <MdEmail />
                     </a>
                 </ul>
                 <ul className="grid grid-cols-2 gap-5">

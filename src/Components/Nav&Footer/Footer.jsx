@@ -1,7 +1,8 @@
 import { useLocalStorage } from "@uidotdev/usehooks";
 import PortfolioIcon from "../../assets/Portfolio-Icon.svg";
 import PortfolioIconBlack from "../../assets/Portfolio-Icon-Black.svg";
-import { BsFacebook, BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
+import { BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
 import { useLocation } from "react-router-dom";
 
 const Footer = () => {
@@ -31,10 +32,9 @@ const Footer = () => {
                 >
                     <a
                         className="ml-4 text-components-font transition-colors hover:text-components-fontHover"
-                        href="https://www.facebook.com/punnaphat.phiamtanapuwanon/"
-                        target="_blank"
+                        href="mailto:punnaphat.phiam@gmail.com"
                     >
-                        <BsFacebook />
+                        <MdEmail />
                     </a>
                     <a
                         className="ml-4 text-components-font transition-colors hover:text-components-fontHover"
