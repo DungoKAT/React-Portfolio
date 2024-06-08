@@ -196,7 +196,7 @@ const Experience = () => {
     return (
         <div className="w-full py-10 animate-fadeIn">
             <h3 className="font-notosans font-semibold text-components-font">
-                Internship
+                Coorperative Education
             </h3>
             <div className="mt-4">
                 <p className="mt-0 text-sm text-components-fontHover font-light">
