@@ -22,7 +22,7 @@ const About = () => {
                     </h5>
                     <a
                         className="mt-4 py-2 px-4 bg-white font-kanit text-black shadow-lg rounded-lg transition-colors hover:bg-[#c3c3c3] max-tablet767:mt-6 max-tablet767:py-3 max-tablet767:px-6 max-tablet767:text-2xl"
-                        href="https://portfolio-api-dungokats-projects.vercel.app/docs/Punnaphat Phiamtanapuwanon.pdf"
+                        href="https://portfolio-api-dungokats-projects.vercel.app/docs/Punnaphat Phiamtanapuwanon Resume.pdf"
                         target="_blank"
                     >
                         Get a resume
