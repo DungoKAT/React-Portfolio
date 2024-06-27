@@ -2,10 +2,11 @@ import { FaHtml5, FaCss3Alt, FaNodeJs } from "react-icons/fa6";
 import { RiJavascriptFill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiPostman, SiRedux, SiExpress } from "react-icons/si";
+import { SiPostman, SiRedux, SiExpress, SiSpringboot } from "react-icons/si";
 import { BiLogoTypescript } from "react-icons/bi";
-import PythonIconPNG from "../assets/python.png";
-import JavaIconPNG from "../assets/JavaIcon.png";
+import PythonIconPNG from "./python.png";
+import JavaIconPNG from "./JavaIcon.png";
+import WebsocketIcon from "./WebsocketIcon.svg";
 
 const TechnologyIcon = [
     {
@@ -42,7 +43,15 @@ const TechnologyIcon = [
     },
     {
         name: "Java",
-        icon: <img className="h-9" src={JavaIconPNG} alt="" />,
+        icon: <img className="w-9" src={JavaIconPNG} alt="" />,
+    },
+    {
+        name: "Spring Boot",
+        icon: <SiSpringboot className="text-[#6bb23d]" alt="" />,
+    },
+    {
+        name: "Websocket",
+        icon: <img className="w-9" src={WebsocketIcon} alt="" />,
     },
     {
         name: "Postman",

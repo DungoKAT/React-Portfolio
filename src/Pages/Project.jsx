@@ -119,14 +119,16 @@ const ImageCard = ({ image }) => {
                 <h5 className="font-opensans font-semibold text-components-font">
                     {image.name}
                 </h5>
-                <a
-                    className="flex items-center text-components-linkFont transition-colors hover:text-components-linkFontHover"
-                    href={image.fullsize}
-                    target="_blank"
-                >
-                    Full size
-                    <BsBoxArrowUpRight className="ml-2" />
-                </a>
+                {image.fullsize && (
+                    <a
+                        className="flex items-center text-components-linkFont transition-colors hover:text-components-linkFontHover"
+                        href={image.fullsize}
+                        target="_blank"
+                    >
+                        Full size
+                        <BsBoxArrowUpRight className="ml-2" />
+                    </a>
+                )}
             </div>
         </div>
     );

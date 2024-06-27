@@ -42,12 +42,12 @@ const Projects = () => {
                                 </div>
                                 <p className="mt-1">{project.description[0]}</p>
                                 <div className="mt-4 mb-0 flex justify-between items-center">
-                                    <div className="flex">
+                                    <div className="grid grid-cols-5 gap-4">
                                         {project.technology.map(
                                             (technology, index) => {
                                                 return (
                                                     <div
-                                                        className="mr-4 p-1 text-2xl bg-gray-800 rounded-full"
+                                                        className="p-1 max-w-8 max-h-8 text-2xl bg-gray-800 rounded-full"
                                                         key={index}
                                                     >
                                                         {techIcon(technology)}
